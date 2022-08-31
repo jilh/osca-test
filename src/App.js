@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import './component/Helloworld';
+import Helloworld from './component/Helloworld';
+import Button from './component/Button';
 
 function App() {
   return (
@@ -8,6 +11,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          If you like reload, if not, go and sleep
+          <Helloworld />
+          <Button />
         </p>
         <a
           className="App-link"
